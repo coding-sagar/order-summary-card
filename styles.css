@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: #fff;
+    width: 33%;
+    margin: 6% auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.main-img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 2rem;
+    margin: 13% auto 5%;
+    font-weight: 900;
+}
+.details{
+    color: hsl(224, 23%, 55%);
+    margin: 0 10% 5%;
+}
+.plan-div{
+    display: flex;
+    margin: 5% 10%;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.plan-div div{
+    margin: 0 5%;
+}
+.annual-plan{
+    margin-bottom: 2%;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.plan-price{
+    margin-top: 0;
+    color: hsl(224, 23%, 55%);
+}
+a{
+    margin-left: auto;
+    margin-right: 5%;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+a:hover{
+    color: hsl(223, 41%, 56%);
+    text-decoration: none;
+}
+.music-icon{
+    margin-left: 5%;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    width: 80%;
+    margin: 5% 10% 3%;
+    height: 2.5rem;
+    border: none;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    box-shadow: 0px 10px 10px hsl(225, 100%, 94%);
+}
+button:hover{
+    background-color: hsl(223, 60%, 56%);
+    cursor: pointer;
+}
+.cancel{
+    font-size: 0.9rem;
+    color: hsl(223, 29%, 44%);
+    font-weight: 700;
+    display: inline-block;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+
+    body{
+        background-image: url("images/pattern-background-mobile.svg"); 
+    }
+    main{
+        width: 80%;
+    }
+    
+}
